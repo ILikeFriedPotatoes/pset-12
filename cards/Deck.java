@@ -1,11 +1,18 @@
 public class Deck extends ArrayList {
   public Deck() {
-    fillDeck()
+    fillDeck();
   }
 
   //creates the cards and shuffles the cards
   private void fillDeck() {
-    
+
+    //create the cards
+    shuffleDeck();
+  }
+
+  //shuffles the deck
+  private void shuffleDeck() {
+
   }
 
 }
