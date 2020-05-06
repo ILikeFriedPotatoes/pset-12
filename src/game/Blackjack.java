@@ -1,5 +1,10 @@
+package game;
+
+import cards.Deck;
+
 public class Blackjack {
-  public startBlackjack() {
+  public void startBlackjack() {
+	Deck deck = new Deck();
     System.out.println("Welcome to Blackjack!");
     System.out.println("How much would you like to bet?");
   }

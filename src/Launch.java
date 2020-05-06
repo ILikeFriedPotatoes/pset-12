@@ -1,9 +1,10 @@
-import cards.Cards.java;
+import game.Blackjack;
 
 public class Launch {
   public static void main(String args[]) {
     System.out.println("Testing.");
-
-    startBlackjack();
+    
+    Blackjack b = new Blackjack();
+    b.startBlackjack();
   }
 }

@@ -1,3 +1,7 @@
+package cards;
+
+import java.util.ArrayList;
+
 public class Deck extends ArrayList {
   public Deck() {
     fillDeck();
