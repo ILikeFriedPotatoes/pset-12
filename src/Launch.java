@@ -19,8 +19,8 @@ public class Launch {
     Poker p = new Poker();
 
     switch(game) {
-      case 1: b.startBlackjack();
-      case 2: p.startPoker();
+      case "Blackjack": b.startBlackjack();
+      case "Poker": p.startPoker();
     }
 
 
