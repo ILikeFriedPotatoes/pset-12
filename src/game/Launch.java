@@ -1,4 +1,6 @@
-import cards.Cards;
+package game;
+
+import cards.Card;
 import java.util.Scanner;
 
 public class Launch {
@@ -12,11 +14,12 @@ public class Launch {
 
     Blackjack b = new Blackjack();
     Poker p = new Poker();
-
+    
     switch(game) {
       case 1: b.startBlackjack();
+      case 2: p.startPoker();
     }
-    
+
 
   }
 }
